@@ -202,10 +202,10 @@ if (te > 0 && te <= 180000) { scroll_pulse ();}
 if (te > 180000 && te <= 360000) { all_snake ();}
 if (te > 360000 && te <= 540000) { snake_parallel (); }
 if (te > 540000 && te <= 720000) { triangles ();}
-if (te > 720000 && te <= 1260000) { explorer3 ();}
-if (te > 1260000 && te <= 1440000) { triangles1 ();}
-if (te > 1440000 && te <= 1620000) { random_strike ();}
-if (te > 1620000) { clear_all (); te =0;}
+if (te > 720000 && te <= 1620000) { explorer3 ();}
+if (te > 1620000 && te <= 1800000) { triangles1 ();}
+if (te > 1800000 && te <= 1980000) { random_strike ();}
+if (te > 1980000) { clear_all (); te =0;}
 
 /*
 
